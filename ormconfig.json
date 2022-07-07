@@ -1,0 +1,9 @@
+{ 
+  "name": "default",
+  "type": "mongodb",
+  "port": 27017,
+  "host": "localhost",
+  "database": "mongodb7",
+  "useUnifiedTopology": true,
+  "entities": ["./src/modules/**/entities/*.ts"]
+}
